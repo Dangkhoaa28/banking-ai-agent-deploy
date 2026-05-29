@@ -11,7 +11,7 @@ services:
     environment:
       INTENT_SERVICE_HOST: intent-service
       INTENT_SERVICE_PORT: 50051
-      OLLAMA_BASE_URL: https://nbcli-34-50-188-224.run.pinggy-free.link
+      OLLAMA_BASE_URL: https://pedtw-136-118-172-132.run.pinggy-free.link
       OLLAMA_MODEL: gpt-oss:20b
     depends_on:
       intent-service:
@@ -28,7 +28,7 @@ services:
     ports:
       - "50051:50051"
     environment:
-      OLLAMA_BASE_URL: https://nbcli-34-50-188-224.run.pinggy-free.link
+      OLLAMA_BASE_URL: https://pedtw-136-118-172-132.run.pinggy-free.link
       OLLAMA_MODEL: gpt-oss:20b
       GRPC_PORT: 50051
     healthcheck:

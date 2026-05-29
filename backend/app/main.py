@@ -23,7 +23,7 @@ def get_config():
     return {
         "intent_host": settings.INTENT_SERVICE_HOST,
         "intent_port": settings.INTENT_SERVICE_PORT,
-        "ollama_host": settings.OLLAMA_HOST,
+        "ollama_host": settings.OLLAMA_BASE_URL,
         "ollama_model": settings.OLLAMA_MODEL
     }
 
